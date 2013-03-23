@@ -1,0 +1,27 @@
+.ui-window {
+	background-color: white;
+	border: thick solid gray;
+	padding: 7px;
+	margin: 10px;
+}
+.ui-window .ui-window-handle {
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	cursor: move;
+}
+.ui-window .ui-window-handle .ui-window-title {
+	
+}
+.ui-window .ui-window-handle .ui-close-window {
+	float: right;
+	cursor: pointer;
+}
+.ui-window .ui-window-handle .ui-maximize-window {
+	float: right;
+	cursor: pointer;
+}
+.ui-window .ui-window-handle .ui-minimize-window {
+	float: right;
+	cursor: pointer;
+}

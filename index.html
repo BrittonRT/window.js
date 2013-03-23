@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="expires" content="-1">
+
+		<title>Abstraction UI Sandbox</title>
+
+		<?php include('modules/util.ie/php/util.ie.conditionals.php'); ?>
+		
+		<link class="abs-ui" rel="stylesheet" type="text/css" href="modules/ui/css/ui.css" />
+		<link class="abs-ui" rel="stylesheet" type="text/css" href="modules/ui.window/css/ui.window.css" />
+		<style>
+			html, body {
+				height: 100%;
+			}
+		</style>
+		
+		<script class="abs-ui" src="modules/util/js/jquery.js" type="text/javascript"></script>
+		<script class="abs-ui" src="modules/util/js/jquery-ui.js" type="text/javascript"></script>
+		<script class="abs-ui" src="modules/util/js/jshashtable.js" type="text/javascript"></script>
+		<script class="abs-ui" src="modules/util/js/oop.js" type="text/javascript"></script>
+		<script class="abs-ui" src="modules/util/js/util.js" type="text/javascript"></script>
+		<script class="abs-ui" src="modules/util.error/js/util.error.js" type="text/javascript"></script>
+		<script class="abs-ui" src="modules/ui/js/ui.js" type="text/javascript"></script>
+		<script class="abs-ui" src="modules/ui.input/js/ui.input.js" type="text/javascript"></script>
+		<script class="abs-ui" src="modules/ui.window/js/ui.window.js" type="text/javascript"></script>
+		<script>
+			var $document = $(document);
+			$document.ready(function() {
+				var w1 = new UI.Window(),
+					w2 = new UI.Window(),
+					w3 = new UI.Window();
+			});
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
